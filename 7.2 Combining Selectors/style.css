@@ -1,0 +1,24 @@
+h1, h2 {
+  color: blueviolet;
+}
+
+/*div (parent) only have one (p) child*/
+/*or .box > p*/
+div > p {
+  color: firebrick;
+}
+
+/*find all the descenders li of .box*/
+.box li {
+  color: blue;
+}
+
+/*specific element li with the class done = true*/
+li.done {
+    color: seagreen;
+}
+
+/*find the ul where p has a class done*/
+ul p.done {
+    font-size: 0.7rem;
+}
