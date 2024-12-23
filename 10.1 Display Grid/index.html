@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chessboard</title>
+    <style>
+      .container {
+        /*the grid takes the whole screen so we set up a maximum width*/
+        width: 800px;
+        display: grid;
+        /*fr: fractional
+        repeat 8 times the 1fr size*/
+        grid-template-columns: repeat(8, 1fr);
+        /*it can also be grid-tempate: 100px 100px (rows) / 100px 100px (columns)
+        grid-template-columns: 100px auto; -> auto is the size of the screen
+        grid-template-rows: 100px auto; -> auto is the size of the letter 
+        grid-template-columns: 200px minmax(400px, 800px)
+        grid-auto-rows: 200px -> a new row will take 200px size
+        
+        grid-column: span 2 -> start in the first position and expand the number specified
+        ;grid-column-start: 1 (first position)
+        grid-column-end: -1 (last position)*/
+      }
+      .white {
+        background-color: #f0d9b5;
+        width: 100px;
+        height: 100px;
+      }
+      .black {
+        background-color: #b58863;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+    </div>
+  </body>
+</html>
